@@ -1,0 +1,57 @@
+@font-face {
+    font-family: AlexBrush;
+    src: url();
+}
+@font-face {
+    font-family: DM Sans;
+    src: url();
+}
+
+body {
+    margin: 0px;
+    border: 0px;
+}
+
+.part1beginning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#part1firstparagraph {
+    font-family: DM Sans, sans-serif;
+    font-size: 21px;
+    color: #BCA680;
+    font-weight: 400;
+    letter-spacing: 3.3px;
+}
+
+#part1couplename {
+    margin:0;
+    font-family: AlexBrush, sans-serif ;
+    font-size: 81px;
+    color: #5880A2;
+    font-weight: 500;
+}
+
+#part1date {
+    font-family: DM Sans, sans-serif;
+    font-size: 21px;
+    color: #BCA680;
+    font-weight: 400;
+    letter-spacing: 3.3px;
+}
+
+#part1dots1 {
+    width: 25%;
+    position: relative;
+    margin-top: -150px;
+    margin-right: 600px;
+}
+#part1dots2 {
+    width: 30%;
+    position: relative;
+    margin-top: -300px;
+    margin-left: 800px;
+}
