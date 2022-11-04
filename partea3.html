@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @font-face {
+            font-family: AlexBrush;
+            src: url(fonts/AlexBrush-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: Playball;
+            src: url(fonts/playball.regular.ttf);
+        }
+
+        .partea3-main {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: space-between;
+        }
+
+        .partea3-card {
+            width: 300px;
+            height: 600px;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border: double 0.4em transparent;
+            background-color: white;
+            border-radius: 75px;
+            background-image: linear-gradient(white, white),
+                linear-gradient(to right, #5880A2, #E6BC75);
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+            display: block;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .partea3-heading {
+            font-family: "AlexBrush", Sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            color: #5880A2;
+        }
+
+        .partea3-images {
+            border-radius: 50%;
+            width: 183.2px;
+            height: 183.2px;
+        }
+
+        [class^="partea3-text"] {
+            font-family: Playball;
+            color: #BCA680;
+            margin-top: 20px;
+        }
+
+        .partea3-text1,
+        .partea3-text2,
+        .partea3-text4 {
+            font-size: 22px;
+        }
+
+        .partea3-text3 {
+            font-size: 18px;
+        }
+
+        .partea3-maps {
+            position: absolute;
+            bottom: 5;
+            top: 5;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="partea3-main">
+        <div class="partea3-card">
+            <h2 class="partea3-heading">Cununia civilă</h2>
+            <img src="images/roses.jpg" class="partea3-images">
+            <div class="partea3-text1"> Primăria Sectorului 1</div>
+            <div class="partea3-text2">18 Septembrie, 2022</div>
+            <div class="partea3-text3"> Ora 11:08 </div>
+            <div class="partea3-text4"> Primăria Sector 1, Bucharest, Romania</div>
+            <img src="images/map1.png" class="partea3-maps">
+        </div>
+
+        <div class="partea3-card">
+            <h2 class="partea3-heading">Ceremonia religioasă</h2>
+            <img src="images/rings.jpg" class="partea3-images">
+            <div class="partea3-text1">Biserica Sfinții Petru și Pavel</div>
+            <div class="partea3-text2"> 18 Septembrie, 2022</div>
+            <div class="partea3-text3"> Ora 12:00 </div>
+            <div class="partea3-text4">Biserica Sfinții Petru și Paul, Strada Pechea, București, Romania</div>
+            <img src="images/map2.png" class="partea3-maps">
+        </div>
+
+        <div class="partea3-card">
+            <h2 class="partea3-heading">Petrecerea</h2>
+            <img src="images/cake.jpg" class="partea3-images">
+            <div class="partea3-text1"> Restaurant Agora </div>
+            <div class="partea3-text2"> 18 septembrie, 2022 </div>
+            <div class="partea3-text3"> Ora 17:00 </div>
+            <div class="partea3-text4"> Restaurant Old School, Calea Plevnei, Bucharest, Romania </div>
+            <img src="images/map3.png" class="partea3-maps">
+        </div>
+    </div>
+
+</body>
+
+</html>
