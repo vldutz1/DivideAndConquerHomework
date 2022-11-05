@@ -1,0 +1,81 @@
+/* .part2-container {
+    width: 103px;
+    height: 70px;
+    border-style: solid;
+    border-radius: 75px;
+    padding: 0px, 100px;
+    border-color: #E6BC75;
+    display: inline-block;
+} */
+.part2-container {
+    display: inline-block;
+    width: max-content;
+}
+
+.part2-zile {
+    font-family: 'AlexBrush';
+    font-size: 22px;
+    color: #5880A2;
+    text-align: center;
+}
+
+.part2-ore {
+    font-family: 'AlexBrush';
+    font-size: 22px;
+    color: #5880A2;
+    text-align: center;
+}
+
+.part2-minute {
+    font-family: 'AlexBrush';
+    font-size: 22px;
+    color: #5880A2;
+    text-align: center;
+}
+
+.part2-secunde {
+    font-family: 'AlexBrush';
+    font-size: 22px;
+    color: #5880A2;
+    text-align: center;
+}
+
+.part2-invite {
+    color: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.part2-invite1 {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: "AlexBrush";
+}
+
+.part2-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.part2-couple {
+    border-radius: 222px;
+    border-color: #5880A2;
+    border-style: double;
+    border-width: 4px;
+}
+
+.part2-img-under-couple {
+    position: relative;
+    width: 15%;
+    height: 15%;
+    z-index: 2;
+    bottom: 45px;
+}

@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+* .part5-confirm {
+    position: relative;
+    left: 170px;
+    top: 20px;
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+    color: #5880a2;
+    text-decoration: solid;
+    padding: 40px;
+
+}
+
+.part5-parent {
+    position: relative;
+    left: 9.5%;
+    top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #bca781;
+    text-decoration: solid;
+    padding: 100;
+    padding-top: 100;
+    padding-right: 100;
+    padding-bottom: 100;
+    padding-left: 100;
+}
+
+.part5-child-one {
+    position: relative;
+    left: 1.5%;
+    top: 25px;
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+    color: #bca781;
+    text-decoration: solid;
+    padding: 40px;
+
+}
+
+.part5-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50%;
+    left: 33%;
+    transform: translateY(50%);
+    padding: 0 20px;
+}
+
+.part5-waiting {
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.part5-p {
+    font-family: 'Playball', cursive;
+    color: #bca781;
+    font-size: 22px;
+    margin: 4px 0;
+}
+
+
+input[type=text] {
+
+    width: 285px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 7px;
+    color: #bca781;
+    border: 1px solid #bca781;
+    padding: 15px;
+    font-family: 'Playball', cursive;
+    outline: none;
+}
+
+
+.part5-meniu {
+    width: 317px;
+    background: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 7px;
+    border-color: #bca781;
+    padding: 15px;
+    font-family: 'Playball', cursive;
+    display: flex;
+    position: absolute;
+    left: 341px;
+    top: 53.7%;
+}
+
+.part5-persoane {
+    width: 317px;
+    margin: 4px 0;
+    background: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 7px;
+    border-color: #bca781;
+    padding: 15px;
+    font-family: 'Playball', cursive;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.part5-msg {
+    width: 48%;
+    color: #5880a2;
+}
+
+.part5-form-control {
+    font-family: 'Playball', cursive;
+    font-size: 22px;
+    color: #bca781;
+    line-height: 1.2;
+    display: grid;
+    grid-template-columns: 24px auto;
+    gap: 15px;
+    padding: 2px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+
+}
+
+::placeholder {
+    color: #9cb4c7;
+}
+
+/* input[type="text"]{
+    color: #5880a2;
+} */
+
+
+.part5-meniu,
+.part5-persoane {
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+    color: #9cb4c7;
+    border-radius: 10px;
+}
+
+.part5-select {
+    font-family: 'Playball', cursive;
+    color: #bca781;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.part4-select1 {
+    font-family: 'Playball', cursive;
+    color: #bca781;
+    position: relative;
+    left: 320px;
+    bottom: 90px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    color: #5880a2;
+}
+
+.part5-msg textarea {
+    height: 150px;
+    width: 610px;
+    margin: 4px 0;
+    display: flex;
+    background: transparent;
+    border: 1px solid #bca781;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Playball', cursive;
+    border-radius: 10px;
+    color: #5880a2;
+    padding: 15px;
+
+}
+
+.part5-btn {
+    font-family: 'Playball', cursive;
+    width: 635px;
+    position: absolute;
+    bottom: -10%;
+    left: 8px;
+    ;
+    padding: 5px;
+    text-align: center;
+    background-color: #5880a2;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 25px 10px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.part5-btn:hover {
+    background-color: #1a9c50;
+    font-size: 30px;
+}
+
+.part5-img1 {
+
+    position: absolute;
+    left: 12%;
+    top: 115%;
+    height: 140px;
+
+}
+
+.part5-img2 {
+    position: absolute;
+    left: 0;
+    top: 130%;
+}
+
+.part5-AD {
+    font-family: "Alex Brush", coursive;
+    position: absolute;
+    top: 155%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    color: #5880a2;
+}
